@@ -1,0 +1,25 @@
+.sportIcon.data-v-24ec994a {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sportIcon .icon.data-v-24ec994a {
+  width: 187rpx;
+  heigth: 187rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10rpx 0;
+  position: relative;
+}
+.sportIcon .icon .notFill.data-v-24ec994a {
+  width: 120rpx;
+  height: 120rpx;
+}
+.sportIcon .icon .fill.data-v-24ec994a {
+  width: 187rpx;
+  height: 187rpx;
+}
+.sportIcon .icon .text.data-v-24ec994a {
+  font-size: 24rpx;
+}

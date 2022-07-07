@@ -1,0 +1,77 @@
+.indexSwiper uni-swiper[data-v-1c3abea2] {
+  height: 12.5rem;
+  width: 100%;
+}
+.indexSwiper uni-swiper .swiper-images[data-v-1c3abea2] {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.recommend[data-v-1c2887c1] {
+  padding: 0.625rem;
+  background-color: skyblue;
+}
+.recommend .recommend-card[data-v-1c2887c1] {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px #ccc;
+}
+.recommend .recommend-card .top-image[data-v-1c2887c1] {
+  width: 100%;
+  height: 9.375rem;
+}
+.recommend .recommend-card .bottom .bottom-image[data-v-1c2887c1] {
+  width: 33.33%;
+  height: 7.1875rem;
+}
+
+.Card[data-v-3879f0e9] {
+  padding-top: 0.625rem;
+}
+.Card .header[data-v-3879f0e9] {
+  display: flex;
+  justify-content: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.Card .header uni-view[data-v-3879f0e9] {
+  padding: 0 0.3125rem;
+}
+
+.commondity[data-v-766770ce] {
+  display: flex;
+  text-align: center;
+  padding-top: 0.625rem;
+}
+.commondity .commondity-item[data-v-766770ce] {
+  box-sizing: border-box;
+  padding: 0.3125rem;
+}
+.commondity .commondity-item .commondity-img[data-v-766770ce] {
+  width: 100%;
+  border-radius: 0.3125rem;
+}
+.commondity .commondity-item .commodity-content .item-title[data-v-766770ce] {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  padding: 0.15625rem 0.3125rem;
+  text-overflow: ellipsis;
+}
+.commondity .commondity-item .commodity-content .item-price .oprice[data-v-766770ce] {
+  padding-left: 0.3125rem;
+  text-decoration: line-through;
+  font-size: 0.75rem;
+  color: #999;
+}
+.commondity .commondity-item .commodity-content .discount[data-v-766770ce] {
+  font-size: 0.625rem;
+  font-weight: bold;
+  border-radius: 0.1875rem;
+  border: 0.125rem solid #2e89d0;
+  padding: 0.0625rem 0.3125rem;
+  color: #2e89d0;
+}

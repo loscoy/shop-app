@@ -1,0 +1,10 @@
+.shop .shop-item .title-img.data-v-b1ae6f6e {
+  width: 100%;
+}
+.shop .shop-item .scroll.data-v-b1ae6f6e {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.shop .shop-item .scroll .scroll-item.data-v-b1ae6f6e {
+  display: inline-block;
+}

@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "banner": "./sport/banner",
+    "sport-icon": "./sport/sportIcon",
+    "card": "../common/Card",
+    "commondity": "../common/Commondity",
+    "shop": "./sport/shop"
+  }
+}

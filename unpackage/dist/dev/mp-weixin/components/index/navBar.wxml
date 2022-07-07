@@ -1,0 +1,1 @@
+<view class="navBar data-v-194ae808"><scroll-view class="navList data-v-194ae808" scroll-x="true" scroll-into-view="{{b}}"><view wx:for="{{a}}" wx:for-item="item" wx:key="c" id="{{item.b}}" bindtap="{{item.d}}" class="{{['data-v-194ae808', item.e]}}">{{item.a}}</view></scroll-view></view>

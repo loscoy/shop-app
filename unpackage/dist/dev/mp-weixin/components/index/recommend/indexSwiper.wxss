@@ -1,0 +1,8 @@
+.indexSwiper swiper.data-v-1c3abea2 {
+  height: 400rpx;
+  width: 100%;
+}
+.indexSwiper swiper .swiper-images.data-v-1c3abea2 {
+  width: 100%;
+  height: 400rpx;
+}

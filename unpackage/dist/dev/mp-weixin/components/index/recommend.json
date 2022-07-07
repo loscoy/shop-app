@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "index-swiper": "./recommend/indexSwiper",
+    "recommend": "./recommend/recommend",
+    "card": "../common/Card",
+    "commondity": "../common/Commondity"
+  }
+}

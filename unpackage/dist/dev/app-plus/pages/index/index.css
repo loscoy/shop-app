@@ -1,0 +1,175 @@
+.indexSwiper uni-swiper[data-v-1c3abea2] {
+  height: 12.5rem;
+  width: 100%;
+}
+.indexSwiper uni-swiper .swiper-images[data-v-1c3abea2] {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.recommend[data-v-1c2887c1] {
+  padding: 0.625rem;
+  background-color: skyblue;
+}
+.recommend .recommend-card[data-v-1c2887c1] {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px #ccc;
+}
+.recommend .recommend-card .top-image[data-v-1c2887c1] {
+  width: 100%;
+  height: 9.375rem;
+}
+.recommend .recommend-card .bottom .bottom-image[data-v-1c2887c1] {
+  width: 33.33%;
+  height: 7.1875rem;
+}
+
+.Card[data-v-3879f0e9] {
+  padding-top: 0.625rem;
+}
+.Card .header[data-v-3879f0e9] {
+  display: flex;
+  justify-content: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.Card .header uni-view[data-v-3879f0e9] {
+  padding: 0 0.3125rem;
+}
+
+.commondity[data-v-766770ce] {
+  display: flex;
+  text-align: center;
+  padding-top: 0.625rem;
+}
+.commondity .commondity-item[data-v-766770ce] {
+  box-sizing: border-box;
+  padding: 0.3125rem;
+}
+.commondity .commondity-item .commondity-img[data-v-766770ce] {
+  width: 100%;
+  border-radius: 0.3125rem;
+}
+.commondity .commondity-item .commodity-content .item-title[data-v-766770ce] {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  padding: 0.15625rem 0.3125rem;
+  text-overflow: ellipsis;
+}
+.commondity .commondity-item .commodity-content .item-price .oprice[data-v-766770ce] {
+  padding-left: 0.3125rem;
+  text-decoration: line-through;
+  font-size: 0.75rem;
+  color: #999;
+}
+.commondity .commondity-item .commodity-content .discount[data-v-766770ce] {
+  font-size: 0.625rem;
+  font-weight: bold;
+  border-radius: 0.1875rem;
+  border: 0.125rem solid #2e89d0;
+  padding: 0.0625rem 0.3125rem;
+  color: #2e89d0;
+}
+
+.banner .banner-image[data-v-75a64282] {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.sportIcon[data-v-24ec994a] {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sportIcon .icon[data-v-24ec994a] {
+  width: 5.84375rem;
+  heigth: 5.84375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3125rem 0;
+  position: relative;
+}
+.sportIcon .icon .notFill[data-v-24ec994a] {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.sportIcon .icon .fill[data-v-24ec994a] {
+  width: 5.84375rem;
+  height: 5.84375rem;
+}
+.sportIcon .icon .text[data-v-24ec994a] {
+  font-size: 0.75rem;
+}
+
+.shop .shop-item .title-img[data-v-b1ae6f6e] {
+  width: 100%;
+}
+.shop .shop-item .scroll[data-v-b1ae6f6e] {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.shop .shop-item .scroll .scroll-item[data-v-b1ae6f6e] {
+  display: inline-block;
+}
+
+.navBar[data-v-194ae808] {
+  height: 3.125rem;
+  line-height: 2.5rem;
+  font-size: 1.25rem;
+}
+.navBar .navList[data-v-194ae808] {
+  white-space: nowrap;
+}
+.navBar .navList .active[data-v-194ae808] {
+  position: relative;
+  color: #49bdfb;
+  transition: all 0.3s;
+}
+.navBar .navList .active[data-v-194ae808]::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 0.1875rem;
+  left: 10%;
+  bottom: 0.3125rem;
+  background-color: #49bdfb;
+}
+.navBar .navList uni-view[data-v-194ae808] {
+  padding: 0.3125rem 0.3125rem;
+  display: inline-block;
+}
+
+.index .nav[data-v-57280228] {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  top: 0;
+  padding-bottom: 0.625rem;
+  -webkit-backdrop-filter: blur(1.25rem) saturate(180%);
+          backdrop-filter: blur(1.25rem) saturate(180%);
+}
+.index .nav .icon-left[data-v-57280228] {
+  margin-left: 10px;
+  font-size: 1.25rem;
+}
+.index .nav .icon-right[data-v-57280228] {
+  margin-right: 10px;
+  font-size: 1.25rem;
+}
+.index .wx-nav[data-v-57280228] {
+  height: 7.1875rem;
+}
+.index .app-nav[data-v-57280228] {
+  height: 4.375rem;
+}

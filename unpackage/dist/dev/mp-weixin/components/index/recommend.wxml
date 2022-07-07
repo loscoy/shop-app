@@ -1,0 +1,1 @@
+<view class="recommend"><index-swiper u-i="77e374fe-0" bind:__l="__l"></index-swiper><recommend u-i="77e374fe-1" bind:__l="__l"></recommend><card u-i="77e374fe-2" bind:__l="__l"></card><commondity wx:if="{{a}}" u-i="77e374fe-3" bind:__l="__l" u-p="{{a}}"></commondity></view>

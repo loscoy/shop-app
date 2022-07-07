@@ -1,0 +1,26 @@
+.navBar.data-v-194ae808 {
+  height: 100rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+}
+.navBar .navList.data-v-194ae808 {
+  white-space: nowrap;
+}
+.navBar .navList .active.data-v-194ae808 {
+  position: relative;
+  color: #49bdfb;
+  transition: all 0.3s;
+}
+.navBar .navList .active.data-v-194ae808::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 6rpx;
+  left: 10%;
+  bottom: 10rpx;
+  background-color: #49bdfb;
+}
+.navBar .navList view.data-v-194ae808 {
+  padding: 10rpx 10rpx;
+  display: inline-block;
+}

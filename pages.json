@@ -1,0 +1,84 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "百年奥莱",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"blurEffext": "light",
+						"buttons": [{
+								"float": "left",
+								"fontSrc": "./common/iconfont/iconfont.ttf",
+								"text": "\ue752"
+							},
+							{
+								"float": "right",
+								"fontSrc": "./common/iconfont/iconfont.ttf",
+								"text": "\ue60d"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shopCart/shopCart",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userCenter/userCenter",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#636263",
+		"selectedColor": "#2e89d0",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "./static/images/tabbar/home.png",
+			"selectedIconPath": "./static/images/tabbar/home-fill.png"
+		}, {
+			"pagePath": "pages/list/list",
+			"text": "列表",
+			"iconPath": "./static/images/tabbar/menu.png",
+			"selectedIconPath": "./static/images/tabbar/menu-fill.png"
+		}, {
+			"pagePath": "pages/shopCart/shopCart",
+			"text": "购物车",
+			"iconPath": "./static/images/tabbar/cart.png",
+			"selectedIconPath": "./static/images/tabbar/cart-fill.png"
+		}, {
+			"pagePath": "pages/userCenter/userCenter",
+			"text": "我的",
+			"iconPath": "./static/images/tabbar/user.png",
+			"selectedIconPath": "./static/images/tabbar/user-fill.png"
+		}]
+	}
+}

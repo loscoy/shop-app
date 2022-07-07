@@ -1,0 +1,1 @@
+<view class="sportIcon data-v-24ec994a"><view wx:for="{{a}}" wx:for-item="i" wx:key="b" class="icon data-v-24ec994a"><image class="{{['data-v-24ec994a', b]}}" src="/static/images/tabbar/menu-fill.png"></image><view wx:if="{{c}}" class="text data-v-24ec994a">{{i.a}}</view></view></view>

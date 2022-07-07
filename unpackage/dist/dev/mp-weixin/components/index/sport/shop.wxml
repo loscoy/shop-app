@@ -1,0 +1,1 @@
+<view class="shop data-v-b1ae6f6e"><view class="shop-item data-v-b1ae6f6e"><image class="title-img data-v-b1ae6f6e" src="/static/images/test.jpg"></image><scroll-view class="scroll data-v-b1ae6f6e" scroll-x="true"><commondity wx:if="{{a}}" class="data-v-b1ae6f6e" u-i="b1ae6f6e-0" bind:__l="__l" u-p="{{a}}"></commondity></scroll-view></view></view>
